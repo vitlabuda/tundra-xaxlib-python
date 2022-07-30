@@ -21,7 +21,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # tundra-xaxlib-python
 `tundra-xaxlib-python`, or **Tundra-NAT64 external address translation library for Python**, enables one to easily 
-parse and constructs wireformat messages used by _Tundra-NAT64 external address translation protocol_
+parse and construct wireformat messages used by _Tundra-NAT64 external address translation protocol_
 ([specification](https://github.com/vitlabuda/tundra-nat64/blob/main/external_addr_xlat/EXTERNAL-ADDR-XLAT-PROTOCOL.md))
 in Python programs. Although this library will probably be most commonly used to implement servers, it is also
 able to construct request messages and parse response messages, which are actions that only the client, i.e.
