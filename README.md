@@ -27,10 +27,18 @@ in Python programs. Although this library will probably be most commonly used to
 able to construct request messages and parse response messages, which are actions that only the client, i.e.
 [Tundra-NAT64](https://github.com/vitlabuda/tundra-nat64), needs to perform.
 
+_NOTE: Some links in this README may not work if the file is not viewed through 
+[GitHub](https://github.com/vitlabuda/tundra-xaxlib-python/blob/main/README.md)._
+
 
 
 ## Installation
-**Coming soon!**
+This library targets **Python 3.9 and above**. It might work in older Python 3 versions, but nothing is guaranteed.  
+
+`tundra-xaxlib-python` may be installed from [PyPI](https://pypi.org/project/tundra-xaxlib-python/) using `pip`:
+```shell
+python3 -m pip install --upgrade tundra-xaxlib-python
+```
 
 
 

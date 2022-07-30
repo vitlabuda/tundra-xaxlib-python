@@ -29,6 +29,6 @@ __all__ = "TundraXaxlibConstants",
 
 @final
 class TundraXaxlibConstants(UninstantiableClassMixin):
-    LIBRARY_VERSION: Final[str] = "1.0.0"
+    LIBRARY_VERSION: Final[str] = "1.0.2"
 
     MAGIC_BYTE: Final[bytes] = b'T'

@@ -1,5 +1,8 @@
 .idea
 __pycache__
 __venv__
+/build
+/dist
+/tundra_xaxlib_python.egg-info
 /test_deploy
 /TODO-private.txt

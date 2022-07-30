@@ -1,0 +1,9 @@
+[1.0.0 @ 2022-07-30]
+- Initial release
+
+[1.0.1 @ 2022-07-30]
+- Added CHANGES
+- Added setup.py, made related changes
+
+[1.0.2 @ 2022-07-30]
+- Added installation instructions to README.md
