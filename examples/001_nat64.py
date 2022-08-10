@@ -260,7 +260,7 @@ async def handle_client(stream_reader: asyncio.streams.StreamReader, stream_writ
     try:
         while True:
             await handle_client_request(stream_reader, stream_writer)
-    except OSError:
+    except (OSError, EOFError):
         pass
     except InvalidMessageDataExc as e:
         print_warn(f"An invalid message has been received (from {printable_peer_name}): {str(e)}")
@@ -268,7 +268,7 @@ async def handle_client(stream_reader: asyncio.streams.StreamReader, stream_writ
         try:
             stream_writer.close()
             await stream_writer.wait_closed()
-        except OSError:
+        except (OSError, EOFError):
             pass
         print_debug(f"A client has disconnected - {printable_peer_name}")
 
